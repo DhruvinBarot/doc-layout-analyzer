@@ -1,6 +1,6 @@
 # DocScan — Document Layout Analysis at Scale
 
-DocScan is a pipeline that takes a folder of PDFs and automatically figures out what's on each page — titles, paragraphs, figures, tables, headers, footers, and more. It processes 80,000+ PDFs without needing a GPU or any deep learning setup.
+DocScan is a pipeline that takes a folder of PDFs and automatically figures out what's on each page titles, paragraphs, figures, tables, headers, footers, and more. It processes 80,000+ PDFs without needing a GPU or any deep learning setup.
 
 The core idea is simple: instead of training a heavy neural network, we use OpenCV to find regions on a page, extract descriptive features from each region, and let LightGBM classify them. It's fast, interpretable, and works on any machine.
 
@@ -20,7 +20,7 @@ The core idea is simple: instead of training a heavy neural network, we use Open
 ## Getting started
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/doc-layout-analyzer.git
+git clone
 cd doc-layout-analyzer
 pip install -r requirements.txt
 ```
@@ -85,8 +85,3 @@ Ran on 15 real arXiv papers (169 pages) — extracted 43,052 regions with zero e
 
 PyMuPDF · OpenCV · scikit-image · LightGBM · pandas · typer · loguru
 
----
-
-## License
-
-MIT
