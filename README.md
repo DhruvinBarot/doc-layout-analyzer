@@ -1,4 +1,4 @@
-# DocScan — Document Layout Analysis at Scale
+# DocScan - Document Layout Analysis at Scale
 
 DocScan is a pipeline that takes a folder of PDFs and automatically figures out what's on each page titles, paragraphs, figures, tables, headers, footers, and more. It processes 80,000+ PDFs without needing a GPU or any deep learning setup.
 
