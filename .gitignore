@@ -1,0 +1,30 @@
+@"
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# Virtual environment
+venv/
+env/
+
+# Model files (too large for git)
+data/models/
+
+# Generated data
+data/results/
+data/sample_pdfs/
+
+# Annotations (optional - remove this line if you want to track it)
+annotations.csv
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+"@ | Out-File -Encoding utf8 .gitignore
